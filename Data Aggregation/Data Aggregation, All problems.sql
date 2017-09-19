@@ -123,7 +123,6 @@ WHERE ManagerID IS NULL
 
 --18. 3rd-Highest Salary
 USE SoftUni
-GO
 
 SELECT Salaries.DepartmentID, Salaries.Salary FROM
 (

@@ -13,10 +13,10 @@ This course sets the basics of working with databases, making it easier to use t
 
 
 ## Exercises.
-1. <a href=""> EXERCISE: DATA DEFINITION AND DATATYPES </a> 
-2. <a href=""> EXERCISE: BASIC CRUD</a> 
-3. <a href=""> EXERCISE: BUILT-IN FUNCTIONS </a> 
-4. <a href=""> EXERCISE: DATA AGGREGATION </a>
+1. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Data%20Definition%20and%20Datatypes"> EXERCISE: DATA DEFINITION AND DATATYPES </a> 
+2. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Basic%20Crud"> EXERCISE: BASIC CRUD</a> 
+3. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Built-In%20Functions"> EXERCISE: BUILT-IN FUNCTIONS </a> 
+4. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Data%20Aggregation"> EXERCISE: DATA AGGREGATION </a>
 5. <a href=""> EXERCISE: TABLE RELATIONS </a>
 6. <a href=""> EXERCISE: SUBQUERIES AND JOINS </a>
 7. <a href=""> EXERCISE: FUNCTIONS, TRIGGERS AND PROCEDURES </a>

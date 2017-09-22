@@ -1,4 +1,4 @@
-https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Table%20Relations*<p align="center"> Databases-Basics---MS-SQL-Server---2017<p>
+*<p align="center"> Databases-Basics---MS-SQL-Server---2017<p>
 <a href="https://softuni.bg/trainings/1747/databases-basics-mssql-server-september-2017">  ![SoftUni logo][logo] <a/>
 
 [logo]: http://innovationstarterbox.bg/wp-content/uploads/2016/05/Softuni_logo_trasparent.png "Logo Title Text 2"
@@ -17,7 +17,7 @@ This course sets the basics of working with databases, making it easier to use t
 2. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Basic%20Crud"> EXERCISE: BASIC CRUD</a> 
 3. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Built-In%20Functions"> EXERCISE: BUILT-IN FUNCTIONS </a> 
 4. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Data%20Aggregation"> EXERCISE: DATA AGGREGATION </a>
-5. <a href=""> EXERCISE: TABLE RELATIONS </a>
+5. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Table%20Relations"> EXERCISE: TABLE RELATIONS </a>
 6. <a href=""> EXERCISE: SUBQUERIES AND JOINS </a>
 7. <a href=""> EXERCISE: FUNCTIONS, TRIGGERS AND PROCEDURES </a>
 8. <a href=""> EXERCISE: TRANSACTIONS </a>

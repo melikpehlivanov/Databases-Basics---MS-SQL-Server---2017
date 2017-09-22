@@ -90,7 +90,7 @@ CASE CurrencyCode
 END AS Currency FROM Countries
 ORDER BY CountryName
 
---25.
+--25. Don't submit USE Diablo in the Judge system or you will get compile time error.
 USE Diablo
 SELECT Name FROM  Characters
 ORDER BY Name

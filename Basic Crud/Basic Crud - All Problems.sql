@@ -73,7 +73,7 @@ WHERE DepartmentID IN (1,2,4,11)
 SELECT Salary FROM Employees
 
 --22. All Mountain Peaks
-USE Geography
+USE Geography -- Don't submit USE Geography in the Judge system or you will get compile time error.
 SELECT PeakName FROM Peaks
 ORDER BY PeakName
 

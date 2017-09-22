@@ -15,7 +15,7 @@ CREATE TABLE Towns
 )
 
 ALTER TABLE Minions
-ADD CONSTRAINT FK_Town FOREIGN KEY (TownId)  makes TownId foreign key and references to Id column of towns table
+ADD CONSTRAINT FK_Town FOREIGN KEY (TownId) -- makes TownId foreign key and references to Id column of towns table
 REFERENCES Towns (Id)
 
 INSERT INTO Towns (Id, Name)

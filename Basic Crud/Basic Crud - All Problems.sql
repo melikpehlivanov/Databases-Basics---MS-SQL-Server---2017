@@ -56,7 +56,6 @@ FROM Employees
 CREATE VIEW V_EmployeeNameJobTitle AS
 SELECT FirstName + ' ' + ISNULL (MiddleName, '') + ' ' + LastName AS [Full Name], JobTitle AS [Job Title]
 FROM Employees
-SELECT * FROM V_EmployeeNameJobTitle
 
 --18.
 SELECT DISTINCT JobTitle FROM Employees
@@ -74,7 +73,7 @@ WHERE DepartmentID IN (1,2,4,11)
 SELECT Salary FROM Employees
 
 --22. All Mountain Peaks
-USE Geography
+USE Geography -- Don't submit USE Geography in the Judge system or you will get compile time error.
 SELECT PeakName FROM Peaks
 ORDER BY PeakName
 
@@ -91,7 +90,7 @@ CASE CurrencyCode
 END AS Currency FROM Countries
 ORDER BY CountryName
 
---25.
+--25. Don't submit USE Diablo in the Judge system or you will get compile time error.
 USE Diablo
 SELECT Name FROM  Characters
 ORDER BY Name

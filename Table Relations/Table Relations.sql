@@ -194,7 +194,7 @@ CREATE TABLE Agenda(
 )
 
 --09. *Peaks in Rila
-Use Geography -- do not submit the Use Geography Statement in judge.
+Use Geography -- do not submit the Use Geography statement in judge.
 SELECT MountainRange, PeakName, Elevation
 FROM Peaks AS p 
 JOIN Mountains AS m ON p.MountainId = m.Id

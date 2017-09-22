@@ -1,4 +1,4 @@
-*<p align="center"> Databases-Basics---MS-SQL-Server---2017<p>
+https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Table%20Relations*<p align="center"> Databases-Basics---MS-SQL-Server---2017<p>
 <a href="https://softuni.bg/trainings/1747/databases-basics-mssql-server-september-2017">  ![SoftUni logo][logo] <a/>
 
 [logo]: http://innovationstarterbox.bg/wp-content/uploads/2016/05/Softuni_logo_trasparent.png "Logo Title Text 2"

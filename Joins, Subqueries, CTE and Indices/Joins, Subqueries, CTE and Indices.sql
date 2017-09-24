@@ -148,4 +148,4 @@ FROM
    GROUP BY Country) AS TopElevations
 LEFT JOIN PeaksMountains_CTE AS pm 
 ON (TopElevations.Country = pm.Country AND TopElevations.HighestElevation = pm.Elevation)
-ORDER BY Country, HighestPeakName
+ORDER BY Country, HighestPeakName 

@@ -22,5 +22,3 @@ VALUES('Vankata', 'Vankata123321',500,Null,'false')
 
 INSERT INTO Users (Username, Password, ProfilePicture, LastLoginTime, IsDeleted)
 VALUES('Baba', 'Baba54212', 352,Null,'false')
-
-

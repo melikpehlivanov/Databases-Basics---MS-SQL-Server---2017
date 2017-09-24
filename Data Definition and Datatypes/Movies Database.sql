@@ -24,8 +24,7 @@ CREATE TABLE Categories
 
 CREATE TABLE Movies
 (
-	Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
-	Title nvarchar(255) NOT NULL,
+	Id int IDENTITY(1,1) NOT NULL PRIMARY KEY,	Title nvarchar(255) NOT NULL,
 	DirectorID int UNIQUE,
 	CopyrightYear date,
 	Length decimal(10,2),
@@ -78,4 +77,3 @@ INSERT INTO Movies(Title, DirectorID, CopyrightYear, Length, GenreID, CategoryID
 Values('Love movie', 123547568, NULL, NUll, 4343, 4, 2,NULL)
 INSERT INTO Movies(Title, DirectorID, CopyrightYear, Length, GenreID, CategoryID,Rating,Notes)
 Values('Dramatic Movie', 97876543, NULL, NUll, 123, 1, 5,NULL)
-

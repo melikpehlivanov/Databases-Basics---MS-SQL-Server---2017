@@ -40,7 +40,7 @@ SELECT FirstName, LastName FROM Employees
 WHERE LEN(LastName)=5
 
 --10.
-USE Geography
+USE Geography -- DO NOT submit in the judge system Use Geography statement in judge or you will get compile time error.
 SELECT CountryName, IsoCode AS [ISO Code] FROM Countries
 WHERE CountryName LIKE '%A%A%A%'
 ORDER BY [ISO Code]

@@ -1,5 +1,5 @@
 --01. Find Names of All Employees by First Name
-USE SoftUni
+USE SoftUni -- DO NOT submit in the judge system Use SoftUni statement in judge or you will get compile time error.
 SELECT FirstName, LastName FROM Employees 
 WHERE FirstName LIKE 'SA%'
 
@@ -34,7 +34,6 @@ ORDER BY Name
 CREATE VIEW V_EmployeesHiredAfter2000 AS 
 SELECT FirstName, LastName FROM Employees
 WHERE HireDate >'2001'
-SELECT * FROM V_EmployeesHiredAfter2000
 
 --09.
 SELECT FirstName, LastName FROM Employees

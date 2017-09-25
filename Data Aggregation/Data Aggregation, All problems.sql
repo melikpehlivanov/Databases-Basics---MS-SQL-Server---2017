@@ -87,7 +87,7 @@ FROM WizzardDeposits
 ) AS wizardDeposit
 
 --13. Departments Total Salaries
-USE SoftUni
+USE SoftUni -- DO NOT submit in the judge system Use SoftUni statement or you will get compile time error.
 SELECT   DepartmentID, SUM(Salary) AS TotalSalary FROM Employees
 GROUP BY DepartmentID
 ORDER BY DepartmentID
@@ -122,8 +122,7 @@ SELECT COUNT(Salary) AS Count FROM Employees
 WHERE ManagerID IS NULL
 
 --18. 3rd-Highest Salary
-USE SoftUni
-
+USE SoftUni -- DO NOT submit in the judge system Use SoftUni statement or you will get compile time error.
 SELECT Salaries.DepartmentID, Salaries.Salary FROM
 (
 SELECT DepartmentId,

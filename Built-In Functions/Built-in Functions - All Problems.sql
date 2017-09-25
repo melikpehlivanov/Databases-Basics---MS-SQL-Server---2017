@@ -54,10 +54,9 @@ ORDER BY Mix
 
 --12.
 USE Diablo -- DO NOT submit in the judge system Use Diablo statement in judge or you will get compile time error.
-SELECT TOP (50) Name, LEFT(CONVERT(varchar, Start, 120), 10) AS Start	
-FROM Games
-WHERE YEAR(Start) IN (2011, 2012)
-ORDER BY Games.Start, Name
+SELECT TOP(50) Name,FORMAT(Start,'yyyy-MM-dd')AS Start FROM Games
+WHERE YEAR(Start) BETWEEN 2011 AND 2012
+ORDER BY Start, Name
 
 --13.
 SELECT Username, RIGHT(Email, LEN(Email) - CHARINDEX('@',Email)) AS 'Email Provider' FROM Users

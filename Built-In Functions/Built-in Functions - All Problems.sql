@@ -86,7 +86,7 @@ Order BY G.Name,
 [Duration],
 [Part of the Day]
 
---16.
+--16. -- DO NOT submit in the judge system Use Orders statement in judge or you will get compile time error.
 USE Orders
 SELECT ProductName, OrderDate,
 DATEADD(DAY, 3, OrderDate) AS [Pay Due],

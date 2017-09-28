@@ -1,4 +1,4 @@
- --01. Find Names of All Employees by First Name
+ --01. Find Names of All Employees by First Name 
 USE SoftUni -- DO NOT submit in the judge system Use SoftUni statement in judge or you will get compile time error.
 SELECT FirstName, LastName FROM Employees 
 WHERE FirstName LIKE 'SA%'

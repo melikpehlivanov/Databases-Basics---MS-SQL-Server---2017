@@ -105,46 +105,44 @@ SELECT SetOfLetters, Word,
   dbo.ufn_IsWordComprised(SetOfLetters, Word) AS Result
 FROM Testing
 --08. * Delete Employees and Departments
+CREATE PROC usp_DeleteEmployeesFromDepartment (@departmentId INT)
+AS
+ALTER TABLE Departments
+ALTER COLUMN ManagerID INT NULL
 
--- delete projects for employees
 DELETE FROM EmployeesProjects
 WHERE EmployeeID IN (
-  SELECT e.EmployeeID FROM Employees AS e 
-  JOIN Departments AS d ON e.DepartmentID = d.DepartmentID
-  WHERE d.Name IN ('Production', 'Production Control')
-)
+						SELECT EmployeeID FROM Employees
+						WHERE DepartmentID = @departmentId
+					)
 
--- make ManagerID in the Departments nullable
-ALTER TABLE Departments
-ALTER COLUMN ManagerID int NULL
-
--- set ManagerID = NULL for the departments
-UPDATE Departments
-SET ManagerID = NULL
-WHERE Name IN ('Production', 'Production Control')
-
--- set ManagerID = NULL for employees in the departments
 UPDATE Employees
 SET ManagerID = NULL
-WHERE DepartmentID IN (
-  SELECT DepartmentID FROM Departments
-  WHERE Name IN ('Production', 'Production Control')
-)
+WHERE ManagerID IN (
+						SELECT EmployeeID FROM Employees
+						WHERE DepartmentID = @departmentId
+				   )
 
--- drop constraint ManagerID_EmployeeID
 
-ALTER TABLE Employees
-DROP CONSTRAINT FK_Employees_Employees
+UPDATE Departments
+SET ManagerID = NULL
+WHERE ManagerID IN (
+						SELECT EmployeeID FROM Employees
+						WHERE DepartmentID = @departmentId
+				   )
 
--- delete employees from the departments
 DELETE FROM Employees
-WHERE DepartmentID IN (
-  SELECT DepartmentID FROM Departments
-  WHERE Name IN ('Production', 'Production Control')
-)
--- delete the departements
+WHERE EmployeeID IN (
+						SELECT EmployeeID FROM Employees
+						WHERE DepartmentID = @departmentId
+				    )
+
 DELETE FROM Departments
-WHERE Name IN ('Production', 'Production Control')
+WHERE DepartmentID = @departmentId
+SELECT COUNT(*) AS [Employees Count] FROM Employees AS e
+JOIN Departments AS d
+ON d.DepartmentID = e.DepartmentID
+WHERE e.DepartmentID = @departmentId
 
 --9. Find Full Name
 GO  -- DO NOT SUBMIT IN JUDGE "Go" 

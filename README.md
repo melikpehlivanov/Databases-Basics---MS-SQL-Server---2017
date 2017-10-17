@@ -22,5 +22,5 @@ This is the system in which I'm submiting and testing the exercises - https://ju
 5. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Table%20Relations"> EXERCISE: TABLE RELATIONS </a>
 6. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Joins%2C%20Subqueries%2C%20CTE%20and%20Indices"> EXERCISE: SUBQUERIES AND JOINS </a>
 7. <a href=""> EXERCISE: FUNCTIONS, TRIGGERS, PROCEDURES AND TRANSACTIONS </a>
-9. <a href=""> EXERCISE: EXAM PREPARATION </a>
+9. <a href="https://github.com/melikpehlivanov/Databases-Basics---MS-SQL-Server---2017/tree/master/Databases%20MSSQL%20Server%20Exam%20-%2024%20April%202017"> EXERCISE: EXAM PREPARATION </a>
 10. <a href=""> EXERCISE: PRACTICAL EXAM </a>

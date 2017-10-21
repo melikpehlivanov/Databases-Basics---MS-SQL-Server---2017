@@ -1,0 +1,8 @@
+CREATE FUNCTION udf_GetRadians(@Degrees FLOAT)
+RETURNS FLOAT
+AS
+BEGIN
+	DECLARE @Result FLOAT = @Degrees * PI() / 180
+	RETURN @Result
+END
+
